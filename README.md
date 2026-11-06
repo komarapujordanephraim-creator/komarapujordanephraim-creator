@@ -14,7 +14,7 @@ Python developer from India. I build web apps and dashboards, and I test AI feat
 
 | Project | What it does | Status |
 |---|---|---|
-| [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps | In development |
+| [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps | v0.1 |
 | ai-chatbot-app | AI chatbot application | In repo |
 | gemini-chat-app | Chat application using Gemini | In repo |
 | AI Guard | Tests LLM applications for common security failures | Planned |
