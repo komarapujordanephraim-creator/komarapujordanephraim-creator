@@ -9,6 +9,7 @@ Python developer from India. I build web apps and dashboards, and I test AI feat
 - **Data analytics**: data cleaning, analysis and dashboards
 - **AI security**: testing LLM apps for prompt injection and data leakage
 - **Quantum-safe readiness**: finding quantum-vulnerable cryptography in code
+
 ## Projects
 
 | Project | What it does | Status |
@@ -25,4 +26,4 @@ Python, Django, JavaScript, HTML/CSS, REST APIs, Git
 
 ## Open to
 
-Web development, data analysis and AI security projects for startups and businesses in the USA and UK.
+Web development, data analysis and AI security projects for startups and businesses worldwide.
