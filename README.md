@@ -1,16 +1,28 @@
-## Hi there 👋
+# Komarapu Jordan Ephraim
 
-<!--
-**komarapujordanephraim-creator/komarapujordanephraim-creator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**AI security, web development and data analytics.**
+Python developer from India. I build web apps and dashboards, and I test AI features for security gaps.
 
-Here are some ideas to get you started:
+## What I work on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Web development**: Python, Django, JavaScript, HTML/CSS, REST APIs
+- **Data analytics**: data cleaning, analysis and dashboards
+- **AI security**: testing LLM apps for prompt injection and data leakage
+- **Quantum-safe readiness**: finding quantum-vulnerable cryptography in code
+## Projects
+
+| Project | What it does | Status |
+|---|---|---|
+| [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps | In development |
+| ai-chatbot-app | AI chatbot application | In repo |
+| gemini-chat-app | Chat application using Gemini | In repo |
+| AI Guard | Tests LLM applications for common security failures | Planned |
+| Data dashboard | Analysis and dashboard on a public dataset | Planned |
+
+## Tech
+
+Python, Django, JavaScript, HTML/CSS, REST APIs, Git
+
+## Open to
+
+Web development, data analysis and AI security projects for startups and businesses in the USA and UK.
