@@ -15,6 +15,7 @@ Python developer from India. I build web apps and data dashboards, and I test AI
 | Project | What it does | Status |
 |---|---|---|
 | [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps. [Live page](https://komarapujordanephraim-creator.github.io/quantumshield/) | v0.1 |
+| [phishing-url-detector](https://github.com/komarapujordanephraim-creator/phishing-url-detector) | Phishing website classifier for security teams. Domain-grouped validation, compared against a majority baseline, with stated limits | v0.1 |
 | [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Logistic regression vs random forest with cross-validation, plots and stated limitations | v0.1 |
 | ai-chatbot-app | AI chatbot application | In repo |
 | gemini-chat-app | Chat application using Gemini | In repo |
