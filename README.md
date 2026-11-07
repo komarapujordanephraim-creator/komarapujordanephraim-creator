@@ -31,6 +31,7 @@ Clear scope, written updates and milestone-based delivery. Work with clients wor
 |---|---|---|
 | [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps. [Live page](https://komarapujordanephraim-creator.github.io/quantumshield/) | v0.1 |
 | [phishing-url-detector](https://github.com/komarapujordanephraim-creator/phishing-url-detector) | Phishing website classifier for security teams. Domain-grouped validation, compared against a majority baseline, with stated limits. [Live page](https://komarapujordanephraim-creator.github.io/phishing-url-detector/) | v0.1 |
+| [smallbiz-crm](https://github.com/komarapujordanephraim-creator/smallbiz-crm) | Small self-hostable CRM in Django: contacts, deal pipeline, activity log, dashboard, per-user data isolation and 17 tests. Portfolio project, single business only. | v0.1 |
 | [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Logistic regression vs random forest with cross-validation, plots and stated limitations | v0.1 |
 | ai-chatbot-app | AI chatbot application | In repo |
 | gemini-chat-app | Chat application using Gemini | In repo |
