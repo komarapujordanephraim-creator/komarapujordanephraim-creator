@@ -34,6 +34,7 @@ Clear scope, written updates and milestone-based delivery. Work with clients wor
 | [smallbiz-crm](https://github.com/komarapujordanephraim-creator/smallbiz-crm) | Small self-hostable CRM in Django: contacts, deal pipeline, activity log, dashboard, per-user data isolation and 17 tests. Portfolio project, single business only. | v0.1 |
 | [saas-starter](https://github.com/komarapujordanephraim-creator/saas-starter) | Multi-tenant SaaS starter in Django: workspaces, team invites, owner/member roles, plan limits, simulated billing and 20 tests. Portfolio project, no real payments. | v0.1 |
 | [shopkit](https://github.com/komarapujordanephraim-creator/shopkit) | Small e-commerce store in Django: catalogue, session cart, stock-safe checkout, price snapshots, staff order flow and 16 tests. Portfolio project, no real payments. | v0.1 |
+| [bookeasy](https://github.com/komarapujordanephraim-creator/bookeasy) | Appointment booking mobile app in React Native (Expo, TypeScript): free-slot rules, confirm-time re-check, cancellation window and 17 Jest tests. Portfolio project, no server yet. | v0.1 |
 | [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Logistic regression vs random forest with cross-validation, plots and stated limitations | v0.1 |
 | ai-chatbot-app | AI chatbot application | In repo |
 | gemini-chat-app | Chat application using Gemini | In repo |
@@ -42,7 +43,7 @@ Clear scope, written updates and milestone-based delivery. Work with clients wor
 
 ## Tech
 
-Python, scikit-learn, Django, JavaScript, HTML/CSS, REST APIs, Git
+Python, scikit-learn, Django, TypeScript, React Native (Expo), JavaScript, HTML/CSS, REST APIs, Git
 
 ## Open to
 
