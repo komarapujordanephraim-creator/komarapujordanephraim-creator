@@ -42,8 +42,6 @@ Clear scope, written updates and milestone-based delivery. Work with clients wor
 | [shopkit](https://github.com/komarapujordanephraim-creator/shopkit) | Small e-commerce store in Django: catalogue, session cart, stock-safe checkout, price snapshots, staff order flow and 16 tests. Portfolio project, no real payments. | v0.1 |
 | [bookeasy](https://github.com/komarapujordanephraim-creator/bookeasy) | Appointment booking mobile app in React Native (Expo, TypeScript): free-slot rules, confirm-time re-check, cancellation window and 17 Jest tests. Portfolio project, no server yet. | v0.1 |
 | [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Logistic regression vs random forest with cross-validation, plots and stated limitations | v0.1 |
-| ai-chatbot-app | AI chatbot application | In repo |
-| gemini-chat-app | Chat application using Gemini | In repo |
 
 ## Tech
 
