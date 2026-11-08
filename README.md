@@ -3,6 +3,8 @@
 **AI security, data science, web and software development.**
 Python developer from India. I build web apps, mobile apps and business software, and I test AI features for security gaps.
 
+Portfolio: [komarapujordanephraim-creator.github.io](https://komarapujordanephraim-creator.github.io)
+
 ## What I work on
 
 - **AI security**: testing LLM apps for prompt injection and data leakage
@@ -31,6 +33,10 @@ Clear scope, written updates and milestone-based delivery. Work with clients wor
 |---|---|---|
 | [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps. [Live page](https://komarapujordanephraim-creator.github.io/quantumshield/) | v0.1 |
 | [phishing-url-detector](https://github.com/komarapujordanephraim-creator/phishing-url-detector) | Phishing website classifier for security teams. Domain-grouped validation, compared against a majority baseline, with stated limits. [Live page](https://komarapujordanephraim-creator.github.io/phishing-url-detector/) | v0.1 |
+| [ai-guard](https://github.com/komarapujordanephraim-creator/ai-guard) | Tests chatbots and LLM apps for prompt injection, system-prompt and data leaks, and unsafe tool actions. 10 probes, HTML report, CI exit codes and 23 tests. Only tests a live endpoint with an explicit permission flag. | v0.1 |
+| [inboxpilot](https://github.com/komarapujordanephraim-creator/inboxpilot) | AI automation demo in Django: sorts WhatsApp, email and chat messages, answers safe ones and holds refunds, complaints and prompt-injection attempts for human approval. Audit log, signed webhooks and 20 tests. Portfolio project, sending is simulated. | v0.1 |
+| [mini-erp](https://github.com/komarapujordanephraim-creator/mini-erp) | Small ERP in Django for a trading business: stock ledger, purchase orders, GST-style invoices, no overselling, gap-free invoice numbers and 16 tests. Portfolio project, single business only. | v0.1 |
+| [us-jobs-dashboard](https://github.com/komarapujordanephraim-creator/us-jobs-dashboard) | Analysis and interactive dashboard of U.S. jobs by industry through the 2008 recession and recovery, from public BLS data. 6 tests. [Live dashboard](https://komarapujordanephraim-creator.github.io/us-jobs-dashboard/dashboard/) | v0.1 |
 | [smallbiz-crm](https://github.com/komarapujordanephraim-creator/smallbiz-crm) | Small self-hostable CRM in Django: contacts, deal pipeline, activity log, dashboard, per-user data isolation and 17 tests. Portfolio project, single business only. | v0.1 |
 | [saas-starter](https://github.com/komarapujordanephraim-creator/saas-starter) | Multi-tenant SaaS starter in Django: workspaces, team invites, owner/member roles, plan limits, simulated billing and 20 tests. Portfolio project, no real payments. | v0.1 |
 | [shopkit](https://github.com/komarapujordanephraim-creator/shopkit) | Small e-commerce store in Django: catalogue, session cart, stock-safe checkout, price snapshots, staff order flow and 16 tests. Portfolio project, no real payments. | v0.1 |
@@ -38,8 +44,6 @@ Clear scope, written updates and milestone-based delivery. Work with clients wor
 | [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Logistic regression vs random forest with cross-validation, plots and stated limitations | v0.1 |
 | ai-chatbot-app | AI chatbot application | In repo |
 | gemini-chat-app | Chat application using Gemini | In repo |
-| AI Guard | Tests LLM applications for common security failures | Planned |
-| Data dashboard | Analysis and dashboard on a public dataset | Planned |
 
 ## Tech
 
