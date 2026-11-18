@@ -1,54 +1,91 @@
+<div align="center">
+
 # Komarapu Jordan Ephraim
 
-**AI security, data science, web and software development.**
-Python developer from India. I build web apps, mobile apps and business software, and I test AI features for security gaps.
+### AI Security · Post-Quantum Readiness · Full-Stack Development
 
-Portfolio: [komarapujordanephraim-creator.github.io](https://komarapujordanephraim-creator.github.io)
+I help startups ship AI products and software that are **secure before they go live**:
+quantum-vulnerable crypto found, AI agents tested, and products built properly.
 
-## What I work on
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge)](https://komarapujordanephraim-creator.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/komarapu-jordan-ephraim-229a46329/)
+[![Email](https://img.shields.io/badge/Email-Hire%20me-111111?style=for-the-badge&logo=gmail)](mailto:komarapujordanephraim@gmail.com)
 
-- **AI security**: testing LLM apps for prompt injection and data leakage
-- **Data science and analytics**: data cleaning, analysis, dashboards and machine learning
-- **Web development**: Python, Django, JavaScript, HTML/CSS, REST APIs
-- **Quantum-safe readiness**: finding quantum-vulnerable cryptography in code
+**Remote · working with teams in the US, UK, Europe and the Middle East**
 
-## Services
+</div>
 
-| Service | What it covers |
-|---|---|
-| Mobile app development | Apps for businesses and startups |
-| Custom business software | Tools built around your own process |
-| AI automation | Workflows, reports, PDF generation, WhatsApp and marketing automation |
-| CRM and ERP systems | Customer, sales and operations systems |
-| SaaS product development | From idea to a working product |
-| E-commerce platforms | Online stores and ordering systems |
-| Business process automation | Removing repetitive manual work |
-| AI security and data science | Security reviews of AI features, analytics and dashboards |
+---
 
-Clear scope, written updates and milestone-based delivery. Work with clients worldwide.
+## 🛡️ The Security Toolkit
 
-## Projects
+Three open-source tools that cover an AI product from code to production. Each one works on its own and plugs into CI with SARIF / exit codes.
 
-| Project | What it does | Status |
+```mermaid
+flowchart LR
+    A[Source code &<br/>dependencies] -->|QuantumShield| B[Quantum-vulnerable crypto<br/>RSA · ECC · DH · weak hashes]
+    C[Agent configs<br/>MCP · skills · prompts] -->|AgentCrypt Scan| D[Tool poisoning · auto-approve<br/>unpinned tools · secrets]
+    E[Live LLM app<br/>or chatbot] -->|AI Guard| F[Prompt injection · data leaks<br/>unsafe actions]
+    B --> G[(SARIF report<br/>GitHub code scanning)]
+    D --> G
+    F --> H[(HTML report<br/>CI exit codes)]
+```
+
+| Tool | Stage | What it finds | Status |
+|---|---|---|---|
+| [**QuantumShield**](https://github.com/komarapujordanephraim-creator/quantumshield) | Code | RSA, ECC, DH and weak crypto in code and dependencies, committed keys, with post-quantum migration hints. [Live page](https://komarapujordanephraim-creator.github.io/quantumshield/) | ![CI](https://github.com/komarapujordanephraim-creator/quantumshield/actions/workflows/ci.yml/badge.svg) |
+| [**AgentCrypt Scan**](https://github.com/komarapujordanephraim-creator/agentcrypt-scan) | Config | MCP and agent-skill risks: tool-poisoning text, hidden Unicode, auto-approve, unpinned `npx` tools, insecure HTTP servers, secrets. GitHub Action included. | ![CI](https://github.com/komarapujordanephraim-creator/agentcrypt-scan/actions/workflows/tests.yml/badge.svg) |
+| [**AI Guard**](https://github.com/komarapujordanephraim-creator/ai-guard) | Runtime | Prompt injection, system-prompt and data leaks, unsafe tool actions. 10 probes, HTML report, permission-gated live testing. | ![CI](https://github.com/komarapujordanephraim-creator/ai-guard/actions/workflows/tests.yml/badge.svg) |
+
+**Applied example:** [**InboxPilot**](https://github.com/komarapujordanephraim-creator/inboxpilot) puts these ideas into a working AI automation: it sorts WhatsApp, email and chat messages, answers safe ones, and holds refunds, complaints and prompt-injection attempts for human approval.
+
+---
+
+## 🚀 Products I Build
+
+Every project has tests, a clear README and an honest list of limits.
+
+| Area | Project | Highlights |
 |---|---|---|
-| [quantumshield](https://github.com/komarapujordanephraim-creator/quantumshield) | Scans code for quantum-vulnerable cryptography and suggests migration steps. [Live page](https://komarapujordanephraim-creator.github.io/quantumshield/) | v0.1 |
-| [phishing-url-detector](https://github.com/komarapujordanephraim-creator/phishing-url-detector) | Phishing website classifier for security teams. Domain-grouped validation, compared against a majority baseline, with stated limits. [Live page](https://komarapujordanephraim-creator.github.io/phishing-url-detector/) | v0.1 |
-| [ai-guard](https://github.com/komarapujordanephraim-creator/ai-guard) | Tests chatbots and LLM apps for prompt injection, system-prompt and data leaks, and unsafe tool actions. 10 probes, HTML report, CI exit codes and 23 tests. Only tests a live endpoint with an explicit permission flag. | v0.1 |
-| [inboxpilot](https://github.com/komarapujordanephraim-creator/inboxpilot) | AI automation demo in Django: sorts WhatsApp, email and chat messages, answers safe ones and holds refunds, complaints and prompt-injection attempts for human approval. Audit log, signed webhooks and 20 tests. Portfolio project, sending is simulated. | v0.1 |
-| [mini-erp](https://github.com/komarapujordanephraim-creator/mini-erp) | Small ERP in Django for a trading business: stock ledger, purchase orders, GST-style invoices, no overselling, gap-free invoice numbers and 16 tests. Portfolio project, single business only. | v0.1 |
-| [us-jobs-dashboard](https://github.com/komarapujordanephraim-creator/us-jobs-dashboard) | Analysis and interactive dashboard of U.S. jobs by industry through the 2008 recession and recovery, from public BLS data. 6 tests. [Live dashboard](https://komarapujordanephraim-creator.github.io/us-jobs-dashboard/dashboard/) | v0.1 |
-| [smallbiz-crm](https://github.com/komarapujordanephraim-creator/smallbiz-crm) | Small self-hostable CRM in Django: contacts, deal pipeline, activity log, dashboard, per-user data isolation and 17 tests. Portfolio project, single business only. | v0.1 |
-| [saas-starter](https://github.com/komarapujordanephraim-creator/saas-starter) | Multi-tenant SaaS starter in Django: workspaces, team invites, owner/member roles, plan limits, simulated billing and 20 tests. Portfolio project, no real payments. | v0.1 |
-| [shopkit](https://github.com/komarapujordanephraim-creator/shopkit) | Small e-commerce store in Django: catalogue, session cart, stock-safe checkout, price snapshots, staff order flow and 16 tests. Portfolio project, no real payments. | v0.1 |
-| [bookeasy](https://github.com/komarapujordanephraim-creator/bookeasy) | Appointment booking mobile app in React Native (Expo, TypeScript): free-slot rules, confirm-time re-check, cancellation window and 17 Jest tests. Portfolio project, no server yet. | v0.1 |
-| [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Logistic regression vs random forest with cross-validation, plots and stated limitations | v0.1 |
+| SaaS | [saas-starter](https://github.com/komarapujordanephraim-creator/saas-starter) | Multi-tenant Django: workspaces, invites, roles, plan limits, billing flow |
+| CRM | [smallbiz-crm](https://github.com/komarapujordanephraim-creator/smallbiz-crm) | Contacts, deal pipeline, activity log, per-user data isolation |
+| E-commerce | [shopkit](https://github.com/komarapujordanephraim-creator/shopkit) | Catalogue, cart, stock-safe checkout, price snapshots, staff order flow |
+| ERP | [mini-erp](https://github.com/komarapujordanephraim-creator/mini-erp) | Stock ledger, purchase orders, invoices, no overselling |
+| Mobile | [bookeasy](https://github.com/komarapujordanephraim-creator/bookeasy) | React Native (Expo, TypeScript) booking app, Jest tests |
+| AI automation | [inboxpilot](https://github.com/komarapujordanephraim-creator/inboxpilot) | Multi-channel inbox with human approval, audit log, signed webhooks |
 
-## Tech
+## 📊 Data & ML
 
-Python, scikit-learn, Django, TypeScript, React Native (Expo), JavaScript, HTML/CSS, REST APIs, Git
+| Project | What it shows |
+|---|---|
+| [phishing-url-detector](https://github.com/komarapujordanephraim-creator/phishing-url-detector) | Security ML with domain-grouped validation and honest baselines. [Live page](https://komarapujordanephraim-creator.github.io/phishing-url-detector/) |
+| [us-jobs-dashboard](https://github.com/komarapujordanephraim-creator/us-jobs-dashboard) | BLS data analysis with an interactive dashboard. [Live dashboard](https://komarapujordanephraim-creator.github.io/us-jobs-dashboard/dashboard/) |
+| [ml-tumor-classifier](https://github.com/komarapujordanephraim-creator/ml-tumor-classifier) | Model comparison with cross-validation and stated limitations |
 
-## Open to
+---
 
-Mobile apps, custom business software, AI automation, CRM and ERP, SaaS, e-commerce, business process automation, AI security and data science projects for startups and businesses worldwide.
+## 🤝 How I Can Help Your Team
 
-Contact: komarapujordanephraim@gmail.com
+| Service | Typical scope |
+|---|---|
+| **Post-quantum readiness check** | Crypto inventory of your codebase, risk ranking and a migration plan |
+| **AI agent & chatbot security test** | 40–50 attack conversations against your bot or agent, report with exact chats and fixes |
+| **Secure product development** | SaaS, CRM, e-commerce, mobile and AI automation, built with tests from day one |
+
+Fixed scope, written updates and milestone-based delivery.
+
+## 🧰 Tech
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![SARIF](https://img.shields.io/badge/SARIF-code%20scanning-555555)
+
+<div align="center">
+
+**Building something with AI or worried about quantum-safe crypto? [Let's talk.](mailto:komarapujordanephraim@gmail.com)**
+
+</div>
